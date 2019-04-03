@@ -20,3 +20,13 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+function personalData() {
+
+	info =  'Mateusz Kalfas' + '\n' +
+			'mateusz.kalfas@gmail.com' + '\n' +
+			'193209'     + '\n' +
+			'Informatyka Stosowana' ;
+			
+	navigator.notification.alert(info);
+	
+}
