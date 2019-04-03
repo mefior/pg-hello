@@ -22,11 +22,11 @@ function deviceInfo() {
 }
 function personalData() {
 
-	info =  'Mateusz Kalfas' + '\n' +
+	elo =  'Mateusz Kalfas' + '\n' +
 			'mateusz.kalfas@gmail.com' + '\n' +
 			'193209'     + '\n' +
 			'Informatyka Stosowana' ;
 			
-	navigator.notification.alert(info);
+	navigator.notification.alert(elo);
 	
 }
