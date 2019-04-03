@@ -8,25 +8,11 @@ function onDeviceReady() {
 
 function deviceInfo() {
 
-	info =  'Hi, I am your smartphone :-)' + '\n' +
+	info =  'Hi, I will show you your personal data' + '\n' +
 			'=====' + '\n' +
-			'Device Name    : '     + device.name     + '\n' + 
-			'Device Cordova : '  + device.cordova + '\n' + 
-			'Device Platform: ' + device.platform + '\n' + 
-			'Device UUID    : '     + device.uuid     + '\n' + 
-			'Device Model   : '    + device.model     + '\n' + 
-			'Device Version : '  + device.version  + '\n';
+			'Name    : '     + 'Mateusz' + '\n' + 
+			'Surname: ' + 'Kalfas';
 
 	navigator.notification.alert(info);
-	
-}
-function personalData() {
-
-	elo =  'Mateusz Kalfas' + '\n' +
-			'mateusz.kalfas@gmail.com' + '\n' +
-			'193209'     + '\n' +
-			'Informatyka Stosowana' ;
-			
-	navigator.notification.alert(elo);
 	
 }
